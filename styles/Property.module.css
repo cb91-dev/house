@@ -1,0 +1,8 @@
+/* you need to wrap the component */
+.image-wrapper {
+  box-sizing: content-box;
+}
+/* the magic happens here */
+.image-wrapper > div {
+  border-radius: 5em !important;
+}
